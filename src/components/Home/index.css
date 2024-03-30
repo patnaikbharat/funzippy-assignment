@@ -1,0 +1,233 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsive-container {
+  width: 90%;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 1500px;
+  margin-bottom: 50px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.name {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Great Vibes';
+}
+
+.name-description {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  max-width: 400px;
+}
+
+.alignment {
+  text-align: right;
+}
+
+.intro-image {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.schedules-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedules-heading {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Great Vibes';
+  margin-top: 70px;
+}
+
+.question-container {
+  background-image: url('https://res.cloudinary.com/dso1ok93b/image/upload/v1711780009/wedding-getting-married_cn4h86.jpg');
+  background-size: cover;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  margin-top: 70px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 30%;
+}
+
+.form-heading {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Great Vibes';
+}
+
+.input {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Hind Siliguri';
+  border: none;
+  outline: none;
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.whole-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 35px;
+}
+
+hr {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.radio-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.label-text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Hind Siliguri';
+}
+
+.form-button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Hind Siliguri';
+  background-color: #007200;
+  border: none;
+  width: 130px;
+  height: 38px;
+  cursor: pointer;
+  outline: none;
+}
+
+.timeline-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Great Vibes';
+  margin-bottom: 20px;
+}
+
+.time {
+  color: #b89c42;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Hind Siliguri';
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.venue {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Hind Siliguri';
+  max-width: 350px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.map-view {
+  width: 80%;
+  border-radius: 20px;
+  border-width: 0px;
+  outline: none;
+}
+
+.album-container {
+  background-color: #cac6c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.album-heading {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Great Vibes';
+  margin-top: 0px;
+}

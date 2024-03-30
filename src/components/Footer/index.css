@@ -1,0 +1,34 @@
+.footer-container {
+  background-color: #614837;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  width: 100%;
+}
+
+.footer-description {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Hind Siliguri';
+  font-style: italic;
+  max-width: 600px;
+  text-align: center;
+}
+
+.footer-item-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+
+.footer-item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Hind Siliguri';
+  text-decoration: none;
+  margin-right: 50px;
+}

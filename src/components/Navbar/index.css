@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-heading {
+  color: #007200;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Sail';
+}
+
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+
+.nav-item {
+  color: #007200;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Hind Siliguri';
+  text-decoration: none;
+  margin-right: 35px;
+}
